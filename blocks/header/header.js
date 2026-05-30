@@ -1,7 +1,7 @@
 export default function decorate(block) {
 // Extract columns from authoring (if any)
 const navItems = [];
-
+alert("Hllo keke");
 [...block.children].forEach((row) => {
 const cols = [...row.children];
 
